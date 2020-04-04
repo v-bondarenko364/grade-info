@@ -15,7 +15,7 @@ enum ExpansionPanelEnum {
 const App = () => {
   const [expanded, setExpanded] = useState('');
 
-  const handleChange = (panel: string) => setExpanded(panel)
+  const handleChange = (panel: string) => setExpanded(panel !== expanded ? panel : '' );
   
   return (
     <StyledContainer>
