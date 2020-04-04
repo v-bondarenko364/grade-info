@@ -8,8 +8,9 @@
 # testing
 /coverage
 
+# Need for github hosting
 # production
-/build
+#/build
 
 # misc
 .DS_Store
