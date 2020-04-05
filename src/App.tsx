@@ -65,7 +65,7 @@ const App = () => {
             <Typography variant="h6">Additional</Typography>
           </ExpansionPanelSummary>
           <StyledExpansionPanelDetails>
-            <Paragraph><b>Design:</b> <i>In process</i></Paragraph>
+            <Paragraph><b>Link with design:</b> <a href="https://j935q.draftium.site" target="_blank" rel="noopener noreferrer">Design</a></Paragraph>
             <Paragraph><b>ERD:</b> <i>In process</i></Paragraph>
           </StyledExpansionPanelDetails>
         </ExpansionPanel>
