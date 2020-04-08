@@ -3,6 +3,7 @@ import {ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary, Paper, Typ
 import { ExpandMore } from '@material-ui/icons';
 
 import bgImage from './assets/bg.jpg'
+import erdFile from './assets/erd.mwb';
 
 enum ExpansionPanelEnum {
   Overview = 'Overview',
@@ -10,7 +11,6 @@ enum ExpansionPanelEnum {
   Journal = 'Journal',
   Additional = 'Additional',
 }
-
 
 const App = () => {
   const [expanded, setExpanded] = useState('');
@@ -66,7 +66,7 @@ const App = () => {
           </ExpansionPanelSummary>
           <StyledExpansionPanelDetails>
             <Paragraph><b>Link with design:</b> <a href="https://j935q.draftium.site" target="_blank" rel="noopener noreferrer">Design</a></Paragraph>
-            <Paragraph><b>ERD:</b> <i>In process</i></Paragraph>
+            <Paragraph><b>ERD:</b> <a href={erdFile} download>MWB file</a></Paragraph>
           </StyledExpansionPanelDetails>
         </ExpansionPanel>
       </Wrapper>
