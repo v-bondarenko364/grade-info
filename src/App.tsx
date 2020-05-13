@@ -34,6 +34,7 @@ const App = () => {
             <b>Participants:</b>
             <TextWithIndent>> Bondarenko Vadim</TextWithIndent>
             <TextWithIndent>> Kikhniei Danyil</TextWithIndent>
+            <Paragraph><b>Project repository:</b> <a href="https://github.com/v-bondarenko364/gradeModule" target="_blank" rel="noopener noreferrer">Github</a></Paragraph>
             <Paragraph><b>Task manager:</b> <a href="https://trello.com/b/myYAJjiQ/grade-project" target="_blank" rel="noopener noreferrer">Trello</a></Paragraph>
             <Paragraph><b>Project terms:</b> <i>04.04.20 - 25.05.20</i></Paragraph>
           </StyledExpansionPanelDetails>
